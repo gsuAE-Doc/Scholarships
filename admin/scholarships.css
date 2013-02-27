@@ -1,0 +1,1347 @@
+/*GEORGIA STATE UNIVERSITY TEMPLATE CSS*/
+/* This file contains the main CSS styles for the Georgia State University Template. The file is seperated into THREE main sections. The first section is for styles that control the general layout of the page. This section is also subdivided by the various subsections of a page as well such as the header, footer, navigation and so on. The second section contains the styles controlling the appearance of content elements within the content areas of the page. The third section contains the styles for any element in the right rail. Again, this sectionis divided into subsections. Unlike the first section, the styles in the second and thrid sections may be based on specific content classes rather than page positioning. */
+
+
+/* ############################################# CUSTOM ################################################# */
+
+.red {
+	font-family: Arial, Helvetica, sans-serif;
+	color: red;
+	font-style: italic;
+}
+
+
+
+/* ############################################# SECTION ONE: LAYOUT CSS ################################################# */
+
+/*------ GENEARL PAGE LAYOUT ------*/
+
+body {
+	margin-top: 0px;
+	background-color: #E6E6E6;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper {
+	width: 90%;
+	border: 2px solid #FFFFFF;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	background-color: #FFFFFF;
+}
+
+/*------ HEADER LAYOUT ------*/
+#header {
+	border-bottom: 2px solid #fff;
+	background-color: #FFFFFF;
+	background-image: url(images/head_back.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	padding: 0px 0px 1px;
+	margin: 0px 0px 5px;
+	height: 90px;
+}
+#header #topbar {
+	height: 34px;
+	margin: 0px;
+	clear: both;
+	padding: 0px;
+}
+
+#header #image {
+	background-image: url(https://www.gsu.edu/images/bannerimage.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 94px;
+	clear: both;
+	margin: 0px;
+}
+#header #bottombar {
+	clear: both;
+}
+#header #topbar #toolbar {
+	float: right;
+	display: inline;
+	padding-right: 25px;
+}
+#header #topbar #logo {
+	float: left;
+}
+
+#search {
+	width: 290px;
+	clear: right;
+	float: right;
+	padding-right: 25px;
+	text-align: right;
+}
+#header #search form {
+	margin: 0px;
+	padding: 0px 0px 0px;
+	padding-bottom: 6px;
+}
+#header #image #collegelogo {
+	float: left;
+}
+#header form {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 10px;
+	color: #FFFFFF;
+	text-transform: capitalize;
+	margin: 0px;
+	padding: 0px 0px 0px;
+}
+.formbox {
+ font-size: 12px;
+}
+#department {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	background-image: url(images/departmentbg.gif);
+	background-repeat: no-repeat;
+	background-position: -10px top;
+	height: 20px;
+	padding-bottom: 2px;
+	padding-left: 15px;
+	padding-right: 0px;
+	text-transform: uppercase;
+	color: #333333;
+	background-color: #FFFFFF;
+	line-height: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 2px;
+	padding-top: 3px;
+	margin-top: 0px;
+}
+#flash {
+	text-align: right;
+	background-color: #FFFFFF;
+	margin: 0px 0px 0px 2px;
+	padding-top: 0px;
+	padding-right: 2px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+#underbar {
+	text-align: left;
+	background-image: url(images/underbar.gif);
+	height: 23px;
+	background-repeat: no-repeat;
+}
+/*------ NAVIGATION LAYOUT ------*/
+/*------ LEFT NAV ------*/
+#leftnav {
+	width: 180px;
+	margin: 0px;
+	float: left;
+}
+#leftnav img{
+	margin-left: 1px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#leftnav h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-image: url(https://www.gsu.edu/images/information.gif);
+	margin: 10px 0px 0px;
+	width: 155px;
+	padding: 0px 0px 0px 15px;
+	height: 22px;
+	color: #6F6F6F;
+	background-repeat: no-repeat;
+	line-height: 22px;
+}
+ul#navbar, ul#navbar2   {
+	padding-bottom: 8px;
+}
+ul#navbar2   {
+	padding-bottom: 8px;
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #1D3465;
+	width: 205px;
+}
+ul#infobar  {
+	padding-bottom: 17px;
+	background-image: url(https://www.gsu.edu/images/lifefoot.gif);
+	background-repeat: no-repeat;
+	background-position: 0px bottom;
+}
+/*------ TOP LEVEL NAV ITEMS ------*/
+ul#navbar, ul#infobar, ul#navbar2  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin: 0px;
+	list-style-type: none;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+ul#navbar li a, ul#navbar2 li a {
+	height: 23px;
+	border: 1px solid #FFFFFF;
+	padding-left: 25px;
+	line-height: 23px;
+	text-decoration: none;
+	color: #FFFFFF;
+	margin: 0px;
+	width: 180px;
+	background-image: url(https://www.gsu.edu/images/navback.gif);
+	background-repeat: no-repeat;
+	background-color: #315AAD;
+	display: block;
+	background-position: left top;
+	}
+ul#navbar li a:hover, ul#navbar2 li a:hover {
+	background-image: url(https://www.gsu.edu/images/navback2.gif);
+	background-repeat: no-repeat;
+	background-color: #315AAD;
+	background-position: left top;
+}
+ul#infobar li a {
+	height: 23px;
+	border: 1px solid #FFFFFF;
+	padding-left: 25px;
+	line-height: 23px;
+	text-decoration: none;
+	color: #FFFFFF;
+	margin: 0px;
+	width: 138px;
+	background-image: url(https://www.gsu.edu/images/info4bg.gif);
+	background-repeat: no-repeat;
+	display: block;
+	background-color: #878787;
+}
+ul#infobar li a:hover {
+	background-image: url(https://www.gsu.edu/images/info4bg2.gif);
+	background-repeat: no-repeat;
+	background-color: #878787;
+}
+/*------ SUBNAV ITEMS ------*/
+ul#subnav, /*ul#infobar li */ul#subnav {
+	color: #878787;
+	background-image: url(images/subnavbg.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px 0px 0px 2px;
+	padding-top: 5px;
+	list-style-type: none;
+	background-color: #D5D5D5;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	width: 200px;
+	font-size: 9px;
+}
+ul#subnav li, ul#subnav li {
+	background-color: #D5D5D5;
+
+}
+ul#subnav li a, ul#subnav li a, ul#subnav li a:hover, ul#subnav li a:hover {
+	background-repeat: no-repeat;
+	background-position: left top;
+	line-height: 15px;
+	padding-left: 20px;
+	list-style-type: none;
+	height: auto;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	color: #000099;
+	text-decoration: underline;
+	margin: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-image: url(images/subnavbg2.gif);
+	width: auto;
+}
+#subnav .selected {
+	color: #696969;
+	text-decoration: none;
+}
+
+/*------ FOOTER LAYOUT ------*/
+#footer {
+	clear: both;
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #666666;
+	font-weight: lighter;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	background-color: #FFFFFF;
+	margin: 0px;
+}
+#footer p {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999999;
+	padding-top: 5px;
+}
+/*------ GENERAL PAGE LAYOUT ------*/
+#core {
+	margin: 0px 7px 0px 215px;
+	padding: 0px;
+	width: auto;
+}
+#core2 {
+	margin: 0px 7px;
+	padding: 0px;
+	width: auto;
+	float: left;
+}
+#core3 {
+	margin: 0px 7px 0px 215px;
+	padding: 0px;
+	width: auto;
+}
+#core-full {
+	margin: 0px 7px 0px 0px;
+	padding: 0px;
+	width: auto;
+}
+#rightrail {
+	padding: 0px 10px;
+	width: 155px;
+	background-color: #FFFFFF;
+	float: left;
+}
+#content {
+	margin: 0px;
+	float: left; 
+	width: 350px
+}
+#core2 #content {
+	margin: 0px;
+	float: left; 
+	width: 80%
+}
+#core3 #content {
+	margin: 0px;
+	float: left; 
+	width: 90%
+}
+#core-full #content {
+	width: auto;
+	margin: 0px;
+	clear: both;
+	padding-top: 0px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+
+#release {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #E7ECF8;
+	font-size: 12px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	border: 1px solid #315AAD;
+	margin-bottom: 20px;
+	padding: 0px;
+}
+#release form, #release p {
+	margin: 0px;
+	padding: 5px;
+}
+
+#release h3 {
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 5px;
+	background-color: #8CA5DD;
+	display: block;
+	margin-top:0px;
+}
+#release p {
+	margin: 0px;
+	padding: 0px 0px 5px;
+}
+#release ul, ol {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
+.released {
+	color: #009933;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 10px;
+}
+.unreleased {
+	color: #CC3300;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+#page {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+}
+#breadcrumbs {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #FFFFFF;
+	display: block;
+	font-size: 9px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+/*------ MISC LAYOUT ------*/
+
+.hidden {
+	visibility: hidden;
+	overflow: hidden;
+}
+.reddot {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FF0000;
+}
+
+/* ############################################# SECTION TWO: CONTENT CSS ################################################# */
+
+/*------ A-Z INDEX ------*/
+#content #index_anchors a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+	margin-right: 5px;
+	padding-right: 5px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #999999;
+}
+#content #index_anchors a.last {
+	border-right-style: none;
+}
+/*------ BLOCK MODULES ------*/
+#content p  {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #333333;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+#content table p  {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #333333;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+#content h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #990000;
+	margin-bottom: 3px;
+	margin-top: 0px;
+}
+#content h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #315AAD;
+	margin-bottom: 2px;
+	margin-top: 6px;
+}
+#content h3 {
+	font-family: Arial, Helvetica, sans-serif;  
+	font-size: 14px;  font-style: normal;  
+	line-height: normal;  
+	font-weight: bold;  
+	color: #666666;  
+	margin-bottom: 2px;  
+	margin-top: 6px; 
+} 
+#content h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;  font-style: normal;  
+  line-height: normal;  
+  font-weight: bold;  
+  color: #003399;  
+  margin-bottom: 0px;  
+  margin-top: 2px;  
+  padding-bottom: 0px;  
+  padding-top: 1px; 
+} 
+#content h5 {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #333333;
+	margin-bottom: 0px;
+	margin-top: 5px;
+} 
+#content h6 {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold; 
+	color: #333333;
+	margin-bottom: 0px;
+	margin-top: 5px;
+}
+#content .more {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #003399;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	text-align: right;
+	margin-right: 4px;
+}
+#content .caption {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	color: #333333;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+#content .byline {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: italic;
+	line-height: normal;
+	color: #666666;
+	text-transform: capitalize;
+}
+#content .credit {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	line-height: normal;
+	color: #333333;
+	font-weight: normal;
+	margin-right: 10px;
+	margin-bottom: 3px;
+	margin-top: 0px;
+	text-align: right;
+}
+/*------ BLOCK LIST MODULES ------*/
+#content ul {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-left: 8px;
+	padding-left: 8px;
+}
+#content ol {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+#content dl {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+#content dt {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #333333;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-weight: normal;
+	background-image: url(images/dt_bullet.gif);
+	background-repeat: no-repeat;
+	padding-left: 15px;
+}
+#content dd {
+	padding-left: 15px;
+}
+#content li, #content dd {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #333333;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+/*------ CALENDAR MODULES ------*/
+#content #calendar   {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+#content #calendar th, #content #monster th  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #333333;
+	font-weight: bold;
+	text-align: left;
+}
+#content #calendar td, #content #monster td  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #333333;
+	font-weight: normal;
+}
+#content table.matrix   {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+#main #calendar2    {
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+#main table.calendarcontrols    {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#main #calendar2 th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #333333;
+	font-weight: bold;
+	text-align: left;
+	background-color: #E5E5CC;
+	border-top-width: 5px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+}
+#main #calendar2 td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #333333;
+	font-weight: normal;
+}
+#main table.calendarcontrols td, #main table.calendarcontrols td input {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #333333;
+	font-weight: normal;
+	vertical-align: text-bottom; 
+}
+#main #error p {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #990000;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+/*------ TABLE MATRICIES 1------*/
+#content table.matrix th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin: 0px;
+	text-align: left;
+	background-color: #1D3465;
+	padding: 2px;
+}
+#content table.matrix td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #333333;
+	font-weight: normal;
+}
+#content table.matrix td.title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #ffffff;
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+#content table.matrix td.dividerleft {
+	margin-right: 80px;
+	padding-right: 20px;
+}
+#content table.matrix td.dividerright {
+	margin-left: 80px;
+	padding-left: 20px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #999999;
+}
+#content table.matrix caption {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #315AAD;
+	margin-bottom: 0px;
+	margin-top: 5px;
+	text-align: left;
+	padding: 0px;
+} 
+/*------ TABLE MATRICIES 2------*/
+#content table.matrix2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	margin: 0px;
+	margin-bottom:10px;
+	text-align: left;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #1D3465;
+	border-left-color: #1D3465;
+}
+#content table.matrix2 th, table.matrix2 td {
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #1D3465;
+	border-bottom-color: #1D3465;
+}
+#content table.matrix2 th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin: 0px;
+	text-align: left;
+	background-color: #1D3465;
+	padding: 2px;
+}
+#content table.matrix2 td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	color: #333333;
+	font-weight: normal;
+	padding: 2px;
+}
+#content table.matrix2 td.title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #ffffff;
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+#content table.matrix2 caption {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #315AAD;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	text-align: left;
+	padding: 0px;
+} 
+/*------ Matrix Rows ------*/
+#content td.matrixrow1 {
+background-color:#e5e5e5;
+}
+#content td.matrixrow2 {
+background-color:#fff;
+}
+#content .matrix tr.section td {
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #1D3465;
+}
+#content .matrix td,#content .matrix td.indent {
+	margin: 0px;
+	padding-top: 3px;
+	padding-bottom: 2px;
+}
+#content .matrix tr.section td.indent {
+	padding-top: 2px;
+}
+#content .matrix td.indent, #content .matrix tr.section td.indent {
+	padding-left: 15px;
+}
+#content div.section .matrix caption {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #333333;
+	margin-bottom: 0px;
+	margin-top: 5px;
+	padding: 0px;
+}
+#content div.section .matrix .list td {
+	margin-bottom: 0px;
+	margin-top: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+
+
+
+
+
+/*------ TABLE MATRICIES ------*/
+ table.usermatrix   {
+    margin-bottom: 5px;
+}
+ table.usermatrix tr  {
+    margin:0px;
+    padding:0px;
+}
+ table.usermatrix caption  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    line-height: 20px;
+    vertical-align: middle;
+    height:auto;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left:5px;
+    color: #FFF;
+    font-weight: bold;
+    text-align: left;
+    background-color:#315AAD;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: #FFFFFF;
+}
+ table.usermatrix caption img  {
+    float:left;
+    border-style:none;
+    vertical-align: middle;
+}
+ table.usermatrix caption a {
+    border-style:none;
+    vertical-align: middle;
+}
+ table.usermatrix th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+    color: #333333;
+    font-weight: bold;
+    margin: 0px;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:5px;
+    text-align: left;
+    background-color:#D1DFEC;
+}
+ table.usermatrix td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px; 
+    font-style: normal;
+    line-height: normal;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:5px;
+    color: #333333;
+    font-weight: normal;
+}
+/* table.matrix td.title, table td.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}*/
+ tr.usermatrixrow1, td.matrixrow1 {
+    background-color:#efefef;
+}
+ tr.usermatrixrow2, td.matrixrow2 {
+    background-color:#fff;
+}
+ td.usermatrixfooter {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #315AAD;
+}
+
+
+
+
+
+/*------ MISC Content:  ------*/
+#content .bread, #content .bread2  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	line-height: normal;
+	color: #333333;
+	font-weight: bold;
+	margin-bottom: 0px;
+	padding-bottom: 8px;
+	margin-top: 0px;
+	padding-top: 0px;
+	text-align: left;
+	text-transform: uppercase;
+}
+#content div.locked {
+	background-color: #D7D7D7;
+	padding: 5px;
+	width: auto;
+}
+#content div.locked p {
+	text-indent: 15px;
+}
+#content div.section h5, #content div.section form {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #333333;
+	margin-bottom: 0px;
+	margin-top: 5px;
+	display: inline;
+	vertical-align: middle;
+}
+#content div.section, #content form img  {
+	display: inline;
+	vertical-align: middle;
+}
+#content div.section form textarea, #content div.section form input {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	vertical-align: middle;
+	display: inline;
+}
+#content div.section {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #1D3465;
+	display: block;
+	clear: both;
+	width: auto;
+}
+#content hr {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #1D3465;
+	padding: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 0px;
+	width: 100%;
+}
+.float-right {
+	float: right;
+}
+#tools {
+	font-family: Tahoma, verdana, Arial, helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #C4D1EE;
+	text-transform: uppercase;
+	color: #333333;
+	padding: 0;
+	height: 24px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #315AAD;
+}
+.title {
+	font-weight: bold;
+	float: left;
+	color: #333333;
+	background-color: #85A2DC;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #315AAD;
+	margin-right: 10px;
+	font-size: 12px;
+	line-height: 24px;
+}
+.toollinks {
+	font-size: 10px;
+	line-height: 24px;
+	float: right;
+	margin-right: 10px;
+}
+
+
+
+/* ############################################# SECTION THREE: RIGHT RAIL CSS ############################################ */
+/*------ General Content:  ------*/
+#rail-content {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 0px;
+}
+/*------ Rail Photo ------*/
+#rail-photo {
+	margin-bottom: 15px;
+}
+/*------ Rail Lists:  ------*/
+#rail-list {
+	margin-bottom: 15px;
+}
+#rail-list h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-image: url(https://www.gsu.edu/images/listheadbg.gif);
+	height: 20px;
+	color: #FFFFFF;
+	line-height: 20px;
+	padding-left: 10px;
+	background-repeat: no-repeat;
+	margin: 0px 0px 5px;
+}
+#rail-list ul {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	list-style-type: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#rail-list li {
+	background-image: url(https://www.gsu.edu/images/bullet_in.gif);
+	background-repeat: no-repeat;
+	background-position: left 2px;
+	margin: 0px 0px 0px -35px;
+	padding-left: 15px;
+}
+
+/*------ Generic Box:  ------*/
+#rail-box {
+	margin-bottom: 15px;
+	background-color: #F2F5FA;
+	width: 206px; /* for IE5/Win */
+	/*voice-family: "\"}\"";  THESE THREE LINES TAKEN OUT BECAUSE THEY INTERFERE WITH CHANGING BACKGROUND IN FIREFOX WITH FLOATING BOX
+	voice-family:inherit;
+	width: 206px; /* actual value */
+	background-image: url(module_bottom.gif);
+	background-position: left bottom;
+	padding-bottom: 10px;
+	background-repeat: no-repeat;
+	background-image: url(https://www.gsu.edu/images/module_bottom.gif);
+}
+
+#rail-box h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #004066;
+	background-image: url(https://www.gsu.edu/images/module_top.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 22px;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+ul.downloads {
+	list-style-image: url(images/bullet_doc.jpg);
+}
+#homebutton {
+	text-align: right;
+	padding-right: 35px;
+	padding-top: 50px;
+	margin: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	float: right;
+}
+.happystephen {
+	font-size: 10px;
+	margin-right: 10px;
+	font-weight: normal;
+	margin-left: 10px;
+	line-height: 24px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #315AAD;
+	padding-left: 10px;
+}
+td blockquote, blockquote {
+	margin: 5px 0px 0px 15px;
+}
+blockquote img {
+	vertical-align: middle;
+}
+a img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.continue {
+	font-weight: bold;
+	color: #009933;
+	margin-bottom: 10px;
+}
+#content .errortext {
+	font-weight: bold;
+	color: #FF0000;
+}
+.column1 {
+	background-color: #FFFFFF;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+}
+.column2 {
+	background-color: #E8E8E8;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+}
+.tier {
+	margin-left: 15px;
+}.tier p {
+	margin-left: 25px;
+}
+.tier li {
+	padding-left: 10px;
+	padding-bottom: 10px;
+	list-style-position: inside;
+	text-indent: -15px;
+}
+.tier li.cite {
+	padding-left: 40px;
+	text-indent: -45px;
+	padding-bottom: 10px;
+	list-style-position: inside;
+}
+
+#topnav {
+	background-color: #E7ECF8;
+	border-bottom: 1px solid #315AAD;
+	height: 20px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	display: block;
+	clear: both;
+	text-align:right;
+}
+
+#topnav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#topnav li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+	display: inline;
+	line-height: 16px;
+	height: 20px;
+	padding: 0px;
+	margin: 0px;
+}
+#topnav a {
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	text-decoration: none;
+}
+
+ul.tabs {
+	margin: 0px;
+	margin-top:4px;
+	padding: 0px;
+	float: right;
+}
+ul.tabs li{
+	background-color: #6A8AD5;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #1D3465;
+	border-right-color: #1D3465;
+	border-bottom-color: #1D3465;
+	border-left-color: #1D3465;
+	height: 20px;
+	margin: 0px;
+	margin-left:0px;
+	margin-right:5px;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 4px;
+	padding-left: 5px;
+	display: inline;
+}
+ul.tabs a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 20px;
+}
+ul.tabs li.selected {
+	background-color: #E7ECF8;
+}
+ul.tabs li.selected a {
+	color: #1D3465;
+}
+#topnav .selected {
+	font-weight: bold;
+}
+/*Progress Bar CSS!!!*/
+div.progress {
+/* controls the width of the progress bar */
+	clear: both;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 160px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+ul.progress {
+	height: 50px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	text-align: center;
+	background-image: url(images/dot_gray.gif);
+	background-repeat: repeat-x;
+ 	background-position: center 20px; 
+	*background-position: center 16px; /* IE value */
+}
+.progress li {
+	display: inline;
+	border: 2px solid #0099CC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 12px;
+	height: 30px;
+	padding: 5px;
+	margin: 5px;
+}
+.progress .first {
+	margin-left: -5px;
+}
+.progress li.completed {
+	background-color: #0099FF;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-top-color: #003399;
+	border-right-color: #003399;
+	border-bottom-color: #003399;
+	border-left-color: #003399;
+}
+.progress li.active {
+	font-weight: bold;
+	background-color: #FFFFFF;
+	color: #003399;
+	border: 3px dashed #003399;
+}
+.progress li.inactive {
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+	color: #999999;
+	background-color: #FFFFFF;
+}
+.progress .last {
+	margin-right: -5px;
+}
+
+A:visited {text-decoration: none}
+A:link {text-decoration: none}
+a:hover {
+	text-decoration: underline;
+}

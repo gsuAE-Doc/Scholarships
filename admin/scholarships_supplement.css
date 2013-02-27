@@ -1,0 +1,35 @@
+/*GEORGIA STATE UNIVERSITY TEMPLATE CSS*/
+/* This file contains the main CSS styles for the Georgia State University Template. The file is seperated into THREE main sections. The first section is for styles that control the general layout of the page. This section is also subdivided by the various subsections of a page as well such as the header, footer, navigation and so on. The second section contains the styles controlling the appearance of content elements within the content areas of the page. The third section contains the styles for any element in the right rail. Again, this sectionis divided into subsections. Unlike the first section, the styles in the second and thrid sections may be based on specific content classes rather than page positioning. */
+
+
+/* ############################################# CUSTOM ################################################# */
+
+.red {
+	font-family: Arial, Helvetica, sans-serif;
+	color: red;
+	font-style: italic;
+}
+
+
+#release {
+	 width:200px;
+}
+
+div.padding {
+	padding:5px;
+}
+
+#release h3 {
+	margin-top:0px;
+	color: #000;
+	font-size: 12px;
+}
+
+#release h4 {
+	color: #000;
+	font-size:12px;
+}
+
+.small {
+	font-size: 10px;
+}

@@ -1,0 +1,1658 @@
+@charset "utf-8";
+/*
+Page Info: 
+Page ID: 8
+Publish Date: Wednesday, April 20, 2011 1:47 PM
+
+*/
+
+/* CSS Document */
+.container_12,.container_16{margin-left:auto;margin-right:auto;width:960px}.grid_1,.grid_2,.grid_3,.grid_4,.grid_5,.grid_6,.grid_7,.grid_8,.grid_9,.grid_10,.grid_11,.grid_12,.grid_13,.grid_14,.grid_15,.grid_16{display:inline;float:left;margin-left:10px;margin-right:10px}.container_12 .grid_3,.container_16 .grid_4{width:220px}.container_12 .grid_6,.container_16 .grid_8{width:460px}.container_12 .grid_9,.container_16 .grid_12{width:700px}.container_12 .grid_12,.container_16 .grid_16{width:940px}.alpha{margin-left:0}.omega{margin-right:0}.container_12 .grid_1{width:60px}.container_12 .grid_2{width:140px}.container_12 .grid_4{width:300px}.container_12 .grid_5{width:380px}.container_12 .grid_7{width:540px}.container_12 .grid_8{width:620px}.container_12 .grid_10{width:780px}.container_12 .grid_11{width:860px}.container_16 .grid_1{width:40px}.container_16 .grid_2{width:100px}.container_16 .grid_3{width:160px}.container_16 .grid_5{width:280px}.container_16 .grid_6{width:340px}.container_16 .grid_7{width:400px}.container_16 .grid_9{width:520px}.container_16 .grid_10{width:580px}.container_16 .grid_11{width:640px}.container_16 .grid_13{width:760px}.container_16 .grid_14{width:820px}.container_16 .grid_15{width:880px}.container_12 .prefix_3,.container_16 .prefix_4{padding-left:240px}.container_12 .prefix_6,.container_16 .prefix_8{padding-left:480px}.container_12 .prefix_9,.container_16 .prefix_12{padding-left:720px}.container_12 .prefix_1{padding-left:80px}.container_12 .prefix_2{padding-left:160px}.container_12 .prefix_4{padding-left:320px}.container_12 .prefix_5{padding-left:400px}.container_12 .prefix_7{padding-left:560px}.container_12 .prefix_8{padding-left:640px}.container_12 .prefix_10{padding-left:800px}.container_12 .prefix_11{padding-left:880px}.container_16 .prefix_1{padding-left:60px}.container_16 .prefix_2{padding-left:120px}.container_16 .prefix_3{padding-left:180px}.container_16 .prefix_5{padding-left:300px}.container_16 .prefix_6{padding-left:360px}.container_16 .prefix_7{padding-left:420px}.container_16 .prefix_9{padding-left:540px}.container_16 .prefix_10{padding-left:600px}.container_16 .prefix_11{padding-left:660px}.container_16 .prefix_13{padding-left:780px}.container_16 .prefix_14{padding-left:840px}.container_16 .prefix_15{padding-left:900px}.container_12 .suffix_3,.container_16 .suffix_4{padding-right:240px}.container_12 .suffix_6,.container_16 .suffix_8{padding-right:480px}.container_12 .suffix_9,.container_16 .suffix_12{padding-right:720px}.container_12 .suffix_1{padding-right:80px}.container_12 .suffix_2{padding-right:160px}.container_12 .suffix_4{padding-right:320px}.container_12 .suffix_5{padding-right:400px}.container_12 .suffix_7{padding-right:560px}.container_12 .suffix_8{padding-right:640px}.container_12 .suffix_10{padding-right:800px}.container_12 .suffix_11{padding-right:880px}.container_16 .suffix_1{padding-right:60px}.container_16 .suffix_2{padding-right:120px}.container_16 .suffix_3{padding-right:180px}.container_16 .suffix_5{padding-right:300px}.container_16 .suffix_6{padding-right:360px}.container_16 .suffix_7{padding-right:420px}.container_16 .suffix_9{padding-right:540px}.container_16 .suffix_10{padding-right:600px}.container_16 .suffix_11{padding-right:660px}.container_16 .suffix_13{padding-right:780px}.container_16 .suffix_14{padding-right:840px}.container_16 .suffix_15{padding-right:900px}.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}.clearfix{display:inline-block}* html .clearfix{height:1%}.clearfix{display:block}
+
+/* EDG Additions */
+.container_16 .grid_9full {
+    display: inline;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width:540px;
+}
+.container_16 .grid_13full {
+    width: 780px;
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.container_16 .grid_16full {
+    width: 960px;
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+}body {
+    font-family: "Calibri", Helvetica, Arial, sans-serif;
+}
+
+#page p, #page ul, #page ol, #page dl, #page dt, #page dd, #page li, #page h1 {
+    margin-top: 0px;
+}
+#page p, #page ul, #page ol, #page dl, #page dt, #page dd, #page li {
+    font-size: 12px;
+    line-height: 16px;    
+}
+#page p, #page ul, #page ol, #page dl, #page dd {
+    margin-bottom: 16px;
+}
+#page li {
+    margin-bottom: 5px;
+}
+#page .caption {
+    font-size: 11px;
+    font-style: italic;
+    font-weight: normal;
+}
+#page ul, #page ol, #page dl {
+    padding:0px;
+}
+#page li {
+    margin-left:25px;
+    font-size: 12px;
+    line-height: 16px;
+}
+#page ul.link, #page li.link {
+    margin-left:5px;
+    padding-left: 5px;
+
+}
+#rightrail li {
+    margin-left:10px;
+    padding-left: 0px;
+}
+#page dt {
+    margin-left:10px;
+    font-size: 14px;
+    font-weight:bold;
+}
+#page dd {
+    margin-left:10px;
+}
+#page h1, #page h2, #page h3, #page h4, #page h5, #page h6 {
+    margin-bottom: 0px;
+}
+#page h2, #page h3, #page h4, #page h5, #page h6 {
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+#page h1 {
+    font-family: "Gill Sans","Calibri", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 0px;
+    line-height: 32px;
+}
+#page h2 {
+    font-size: 16px;
+    line-height: 24px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+#page h3 {
+    font-size: 14px;
+    line-height: 32px;
+}
+#page h4 {
+    font-size: 12px;
+    line-height: 16px;
+}
+#page h5 {
+    font-size: 10px;
+    line-height: 16px;
+}
+#page h6 {
+    font-size: 8px;
+    line-height: 16px;
+}
+/*--- Basic Tables --*/
+#page table, table.matrix {
+/*    margin: 10px;*/
+/*    width: 100%;*/
+}
+#page table caption, table.matrix caption{
+    text-align: left;
+    padding-bottom: 5px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+}
+#page table th, table.matrix th {
+    font-weight: bold;
+    padding: 5px;
+    text-align: left;
+    font-size: 12px;
+    line-height: 16px;
+}
+#page table td, table.matrix td {
+    text-align: left;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 16px;
+}
+/* Image Configuration */
+img.image_left {
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+img.image_right {
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+/* ADA Navigation */
+#skipper {
+    z-index: 6;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    left: -1200px;
+    top: 0px;
+}
+#skipper a  {
+    padding: 0px;
+    margin: 0px;
+    color: #3663B4;
+    font-weight: bold;
+    text-decoration: none;
+}
+ #skipper a:focus, #skipper a:active, #skipper a:hover {
+    color: White;
+    text-decoration: underline;
+}
+ #skipper a:focus, #skipper a:active, #skipper a:hover  {
+    color: White;
+    text-decoration: underline;
+}
+
+/* Basic Layout */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-repeat: repeat-x;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+img {border:none;}
+p {
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.content {
+    margin: 0px 5px;
+}
+#topnav {
+    background-repeat: no-repeat;
+    padding:0px;
+/*    height: 30px;*/
+    display: block;
+}
+#dept_title {
+    height: 33px;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-top: 6px;
+    margin-bottom: 5px;
+    margin-top: -6px;
+}
+#page {
+    margin-top:2px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top-width: 2px;
+    border-top-style: solid;
+}
+#rightrail, #calendar, #sitenews {
+    padding: 0px;
+    padding-top: 5px;
+/*    padding: 10px 0px 0px 0px;*/
+}
+#wrapper {
+    padding: 2px 0px 0px 0px;
+    width: 960px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+#footer {
+    background-position: 50% top;
+    text-align: center;
+    background-repeat: no-repeat;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+.header {
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 100px;
+}
+#promobanner {
+    background-position: bottom;
+ /*   height: 305px;*/
+}
+.header #tools {
+    /*width:680px;*/
+    margin:0px;
+    padding:0px;
+    text-align: right;
+}
+#college #tools {
+    padding-top: 0px;
+}
+#tools ul.toollinks {
+    margin: 0px;
+    padding-right: 7px;
+    margin-right: 7px;
+    list-style-type: none;
+    border-right-width: 1px;
+    border-right-style: solid;
+    font-size: 9px;
+    height: 20px;
+    display: inline;
+}
+#college #tools ul.toollinks {
+    border: none;
+    padding:5px 7px;
+    margin-right: 0px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    height: 25px;
+    line-height:25px;
+}
+
+#tools .tagline {
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-top: 35px;
+    padding-right:15px;
+}
+#college #tools .tagline {
+    margin-top: 20px;
+}
+#tools ul.toollinks li {
+    display: inline;
+    padding: 0px;
+    padding-top: 5px;
+    margin: 0px 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#tools ul.toollinks li a {
+    text-decoration: none;
+}
+#tools .searchbar {
+    display: inline;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin: 0px 20px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+#tools .searchbar input {
+    font-size: 10px;
+    margin-left:5px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+#tools .searchbar .gobutton {
+    background-position: 0px 0px;
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 5px;
+}
+.header #logo {
+    padding-top: 5px;
+}
+
+/*-- Specific Header with Department Logo --*/
+
+.header_collegedept .collegename {
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding-right: 17px;
+    height: 25px;
+    width: 215px;
+}
+.header_collegedept .collegename a {
+    height: 25px;
+    line-height: 25px;
+}
+.header_collegedept .collegename div {
+    background-repeat: repeat-x;
+    background-position: left top;
+    height: 25px;
+    line-height: 25px;
+}
+.header_collegedept {
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 122px;
+    width:960px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.header_collegedept #toolbar {
+    height: 25px;
+    line-height: 25px;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align:right;
+}
+.header_collegedept #toolbar ul.toollinks {
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding:0px;
+    padding-left:10px;
+    margin:0px;
+    float:right;
+}
+.header_collegedept #toolbar ul.toollinks li {
+    list-style-type: none;
+    display: inline;
+    padding-left:5px;
+    padding-right:5px;
+}
+.header_collegedept ul.toollinks li a {
+    text-decoration: none;
+}
+.header_collegedept .tagline {
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: right;
+    padding-top: 20px;
+}
+.header_collegedept .tagline form {
+    padding-right:15px;
+}
+.header_collegedept .tagline input {
+    margin-left: 10px;
+    font-size:10px;
+}
+.header_collegedept .tagline form .gobutton {
+    background-position: 0px 0px;
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 5px;
+}
+.header_collegedept #logo {
+    width: 395px;
+    padding-top:5px;
+    padding-left:5px;
+}
+.header_collegedept a#gsu {
+    background-repeat: no-repeat;
+    background-position: left top;
+    display: block;
+    float: left;
+}
+.header_collegedept a#deptlogo {
+    background-repeat: no-repeat;
+    background-position: left top;
+    display: block;
+    float: left;
+}
+
+/*-- Drop Down Nav Bar --*/
+.navdropdown {
+    background-repeat: no-repeat;
+    background-position: 50% bottom;
+    height: 75px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    width: 950px;
+    margin-right: auto;
+    margin-left: auto;
+    border-right-width: 5px;
+    border-left-width: 5px;
+    border-right-style: solid;
+    border-left-style: solid;
+}
+.navdropdown #topbg {
+    background-repeat: no-repeat;
+    background-position: 50% top;
+    padding-top: 5px;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 70px;
+}
+/* Navigation List Columizer */
+/* separate the list from surrounding elements */
+.navdropdown ul {
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;}
+.navdropdown ul li {
+    list-style-type: none;
+    /* Stipulate the height of each item so that 
+    vertical return = items * height */
+    line-height: 20px;
+    /* Clear the default margins & padding 
+    so we can style the list from scratch */
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+    padding-left: 10px;
+    font-size: 11px;
+    background-repeat: no-repeat;
+    background-position: 0px 8px;    
+}
+/* If li position is left static, Internet 
+Explorer disables hyperlinks in the list 
+in all but the final column.
+This rule will be processed only by 
+Internet Explorer because only IE believes 
+that there's a level above HTML: */
+
+* html .navdropdown ul li {
+    position: relative;
+}
+/* set the horizontal positions of the columns */
+.navdropdown ul li.column1 { margin-left: 0px; }
+.navdropdown ul li.column2 { margin-left: 240px; }
+.navdropdown ul li.column3 { margin-left: 480px; }
+.navdropdown ul li.column4 { margin-left: 720px; }
+.navdropdown ul li.column5 { margin-left: 960px; }
+
+/* Bring the first item of each column back up to the level of item 1.
+    Vertical return = items * height.
+    Here, 3 items * 16px line-height = 48px */
+ .navdropdown ul li.reset {
+    margin-top: -60px;
+} 
+.navdropdown ul li a {
+    display: block;
+    width: 220px;
+    text-decoration: none;
+}
+.navdropdown ul li a:hover {
+    text-decoration: underline;
+}
+/* End Navigation List Columizer  */
+
+/* Top Navigation */
+#menu {
+    height: 34px;
+}
+#tabs ul#menu {
+    font-size: 12px;
+    border: none;
+    list-style-type: none;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    padding-top:3px;
+    padding-bottom:0px;
+    line-height: 34px;
+}
+#tabs ul#menu li {
+    display: inline-block;
+    margin: 0px;
+/*    height: 34px;*/
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 9px;
+}
+#tabs ul#menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+}
+#tabs ul#menu li span {
+    margin-right: 11px;
+}
+#tabs ul#menu li.active li {
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+#tabs ul#menu li.active li a {
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+#tabs ul#menu li.active span {
+/*    border-bottom-width: 2px;
+    border-bottom-style: solid; */
+}
+#tabs ul#menu li.selected  {
+    background-repeat: no-repeat;
+    background-position: left 5px;
+}
+#tabs ul#menu li.selected a {
+    background-position: right 5px;
+    background-repeat: no-repeat;
+/*    height:37px; */
+}
+#tabs .flamebar {
+    position: relative;
+    top: 5px;
+    border: none;
+}
+#tabs ul#menu li a:hover span {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+#tabs ul#menu li a span {
+    padding: 2px;
+}
+
+/* Left Navigation */
+#leftnav {
+    margin-bottom:20px;
+}
+
+#leftnav ul.tier1, #leftnav ul.tier1 ul.tier2, #leftnav ul.tier1 ul.tier2 ul.tier3 {
+    background-repeat: repeat-y;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 16px;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    position: relative;  
+}
+#leftnav li {
+    margin: 0px;
+    padding: 0px;
+}
+#leftnav div {
+    font-size: 11px;
+    margin: 0px;
+    padding: 5px 0px;
+}
+#leftnav a {
+    text-decoration: none;
+}
+#leftnav a:hover {
+    text-decoration: underline;
+}
+#leftnav .tier1 div {
+    padding-left: 15px;
+    padding-right: 5px;
+}
+#leftnav .tier1 li.lnavselected div {
+    background-repeat: no-repeat;
+    background-position: 3px 11px;
+    padding-left: 15px;
+}
+#leftnav .tier1 li.lnavselected .tier2 div {
+    background: none;
+    padding-left: 30px;
+}
+#leftnav .tier1 li.lnavselected .tier2 li.lnavselected div {
+    background-repeat: no-repeat;
+    background-position: 15px 11px;
+    padding-left: 30px;
+}
+#leftnav .tier1 li.lnavselected .tier2 li.lnavselected .tier3 div {
+    background: none;
+    padding-left: 45px;
+}
+#leftnav .tier1 li.lnavselected .tier2 li.lnavselected .tier3 li.lnavselected div {
+    background-repeat: no-repeat;
+    background-position: 30px 11px;
+    padding-left: 45px;
+}
+#leftnav #homelink {
+    background-repeat: repeat-y;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 16px;
+    padding:0px;
+}
+#homelink div.inactive, #homelink div.active  {
+    margin-left: 3px;
+    padding-left: 12px;
+    padding-top: 0px
+    padding-bottom: 0px;
+}
+#homelink div.active {
+    background-repeat: no-repeat;
+    background-position: 0px 11px;
+/*    background-position: left center;*/
+}
+
+/* -- Information For Nav -- */
+#infobar ul.tier1, #infobar ul.tier1 ul.tier2, #infobar ul.tier1 ul.tier2 ul.tier3 {
+    background-repeat: repeat-y;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 16px;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    position: relative;  
+}
+#infobar li {
+    margin: 0px;
+    padding: 0px;
+}
+#infobar div {
+    font-size: 11px;
+    margin: 0px;
+    padding: 5px 0px;
+}
+#infobar a {
+    text-decoration: none;
+}
+#infobar a:hover {
+    text-decoration: underline;
+}
+#infobar .tier1 div {
+    padding-left: 15px;
+    padding-right: 5px;
+}
+#infobar .tier1 li.lnavselected div {
+    background-repeat: no-repeat;
+    background-position: 3px 11px;
+    padding-left: 15px;
+}
+#infobar .tier1 li.lnavselected .tier2 div {
+    background: none;
+    padding-left: 30px;
+}
+#infobar .tier1 li.lnavselected .tier2 li.lnavselected div {
+    background-repeat: no-repeat;
+    background-position: 15px 11px;
+    padding-left: 30px;
+}
+#infobar .tier1 li.lnavselected .tier2 li.lnavselected .tier3 div {
+    background: none;
+    padding-left: 45px;
+}
+#infobar .tier1 li.lnavselected .tier2 li.lnavselected .tier3 li.lnavselected div {
+    background-repeat: no-repeat;
+    background-position: 30px 11px;
+    padding-left: 45px;
+}
+#infobar #infotitle {
+    background-repeat: repeat-y;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 16px;
+    padding:0px;
+}
+#infotitle div.title {
+    margin-left: 3px;
+    padding-left: 12px;
+}
+
+/*-- Popular Links -- */
+.popular {
+    margin: 10px 0px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+.ptitle {
+    background-repeat: repeat-y;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 16px;
+    padding: 5px 0px;
+}
+.ptitle div.title {
+    margin-left: 3px;
+    padding-left: 12px;
+}
+#page .popular ul.tier1 {
+    background-repeat: repeat-x;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 16px;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    position: relative;  
+}
+#page .popular ul.tier1 li {
+    font-size: 11px;
+    line-height: 16px;
+    margin: 0px;
+    padding: 5px;
+    margin-left: 10px;
+    padding-left: 15px;
+    background-repeat: no-repeat;
+    background-position: 3px 11px;
+}
+/*-- Breadcrumbing --*/
+div.breadcrumb {
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 0px;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+#page h5.caption {
+    font-size: 10px;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-right: 0px;
+/*    margin-bottom: 5px;*/
+    margin-left: 0px;
+    padding: 0px;
+}
+#page #pageheadline {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+#page #pageheadline h1, #page #pageheadline h4 {
+    margin: 0;
+    padding: 0px;
+}
+#page #pageheadline h4 {
+    font-size:14px;
+    font-weight: normal;
+}/* Color Sheet: This file contains the colors and background images necessary for each of the Georgia State Colleges. */
+/* =========================
+
+Color Variables:
+
+pageheadline: #59B747
+navzero: #B5E5A4
+navfirst: #72C65D
+navsecond: #B5E5A4
+navthird: #DFF4DE
+first: #59B747
+nav dropdown: #C0E0FF
+first-light: #B5E5A4
+second: #4FA2C1
+second-light: #BAE3F1
+third: 
+third-light: 
+white: #FFF
+off-black: #666
+off-black-light: #CCC
+off-black-extralight: #efefef
+gsured: #C00
+gsublue: #039
+links: #315AAD
+headertext: #66A8E2
+
+
+========================= */
+
+
+/* Basic Layout */
+body {
+    background-image: url(http://www.gsu.edu/enrollment/images/pagebg.jpg);
+    color: #666;
+}
+#tabs {
+    background-image: url(http://www.gsu.edu/enrollment/images/topnavbg.jpg);
+    background-color: #FFF;
+}
+#page {
+    background-color: #FFF;
+    border-top-color: #B5E5A4;
+}
+#wrapper {
+    background-color: #FFF;
+}
+#footer {
+    background-color: #FFF;
+    background-image: url(http://www.gsu.edu/enrollment/images/footerlinebg.gif);
+    color: #666;
+}
+.header {
+    background-image: url(http://www.gsu.edu/enrollment/images/headerbg.jpg);
+}
+a {
+    color:#315AAD;
+}
+a#gsu {
+    background-image: url(http://www.gsu.edu/enrollment/images/RCB/gsulogo_departonlybanner.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    display: block;
+    float: left;
+}
+a#collegelogo {
+    background-image: url(http://www.gsu.edu/enrollment/images/enrollment/enrollmentservices.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    display: block;
+    float: left;
+}
+/*-- Department Logo Header --*/
+.header_collegedept .collegename {
+    background-image: url();
+    color: #FFF;
+}
+.header_collegedept .collegename a {
+    color: #FFF;
+}
+.header_collegedept .collegename div {
+    color: #FFF;
+    background-image: url();
+}
+.header_collegedept {
+    background-image: url();
+}
+.header_collegedept #toolbar ul.toollinks {
+    background-image: url(http://www.gsu.edu/enrollment/images/enrollment/toolbar_bg.gif);
+}
+.header_collegedept ul.toollinks li a, #college #seachform, ul.toollinks li a:hover  {
+    color: #66A8E2;
+}
+.header_collegedept .tagline {
+    color: #66A8E2;
+}
+.header_collegedept .tagline form input.gobutton {
+    background-image: url(http://www.gsu.edu/enrollment/images/go_off.png);
+}
+.header_collegedept .tagline form input.gobutton:hover {
+    background-image: url(http://www.gsu.edu/enrollment/images/go_on.png);
+}
+.header_collegedept a#gsu {
+    background-image: url();
+}
+.header_collegedept a#deptlogo {
+    background-image:url();
+}
+
+/*-- Typography --*/
+h1 {
+    color:#59B747;
+}
+.departmenttitle {
+    color:#59B747;
+}
+#page table caption {
+    color: #59B747;
+}
+#page table th {
+    background-color: #59B747;
+    color: #FFF;
+}
+#page table .matrixrow2 {
+    background-color:#efefef;
+}
+#promobanner {
+    /*background-image: url(http://www.gsu.edu/enrollment/images/headerbg.jpg);*/
+    background-color: #315AAD;
+}
+#college .toollinks {
+    background-image: url(http://www.gsu.edu/enrollment/images/enrollment/toolbar_bg.gif);  
+}
+#tools ul.toollinks {
+    border-right-color:#66A8E2;
+}
+#tools .tagline {
+    color: #66A8E2;
+}
+#tools ul.toollinks li a {
+    color: #66A8E2;
+}
+#tools .searchbar {
+    color:#66A8E2;
+}
+#tools .searchbar input.gobutton {
+    background-image: url(http://www.gsu.edu/enrollment/images/go_off.png);
+}
+#tools .searchbar input:hover.gobutton {
+    background-image: url(http://www.gsu.edu/enrollment/images/go_on.png);
+}
+#college #seachform, #tools ul.toollinks li a:hover {
+    color: #FFF;
+}
+
+.navdropdown {
+    background-image: url(http://www.gsu.edu/enrollment/images/dropdownbg_smaller.gif);
+    background-color: #C0E0FF;
+    border-bottom-color: #FFF;
+    border-right-color: #FFF;
+    border-left-color: #FFF;
+}
+.navdropdown #topbg {
+    background-image: url(http://www.gsu.edu/enrollment/images/dropdownbg_smallertop.gif);
+}
+.navdropdown ul li {
+    background-image: url(http://www.gsu.edu/enrollment/images/bullet_blue.gif);   
+}
+/* Top Navigation */
+#tabs ul#menu li a {
+    color: #FFF;
+}
+#tabs ul#menu li.active {
+    background-image: url(http://www.gsu.edu/enrollment/images/tab_left_bg.gif);
+}
+#tabs ul#menu li.active a {
+    background-image: url(http://www.gsu.edu/enrollment/images/tab_right_bg.gif);
+    color: #666;
+}
+#tabs ul#menu li.active span {
+    border-bottom-color: #C00;
+}
+#tabs ul#menu li.selected  {
+    background-image: url(http://www.gsu.edu/enrollment/images/tab_selected_left_bg.gif);
+}
+#tabs ul#menu li.selected a {
+    background-image: url(http://www.gsu.edu/enrollment/images/tab_selected_right_bg.gif);
+    color: #666;
+}
+#tabs ul#menu li a:hover span {
+    border-bottom-color: #C00;
+}
+#navdropdown ul li {
+    background-image: url(http://www.gsu.edu/enrollment/images/bullet_blue_16px.gif);
+}
+#navdropdown ul li a {
+    color: #315AAD;
+}
+#navdropdown ul li a:active {
+    color: #C00;
+}
+#navdropdown ul li a:hover {
+    color: #C00;
+}
+#navdropdown ul li a:visited {
+    color: #315AAD;
+}
+/* Left Navigation */
+#homelink {
+    background-image: url(http://www.gsu.edu/enrollment/images/enrollment/mainnavbg-tier0.gif);
+}
+#homelink a {
+    color: #FFF;
+}
+#homelink div.active {
+    background-image: url(http://www.gsu.edu/enrollment/images/bullet_leftnav_tier1_rollover.gif);
+}
+#leftnav .tier1 {
+    background-image: url(http://www.gsu.edu/enrollment/images/enrollment/mainnavbg-tier1.gif);
+}
+#leftnav .tier1 .tier2 {
+    background-image: url(http://www.gsu.edu/enrollment/images/enrollment/mainnavbg-tier2.gif);
+}
+#leftnav .tier1 .tier2 .tier3 {
+    background-image: url(http://www.gsu.edu/enrollment/images/enrollment/mainnavbg-tier3.gif);
+}
+#leftnav .tier1 .lnavselected div  {
+   background-image: url(http://www.gsu.edu/enrollment/images/bullet_leftnav_tier1_rollover.gif);
+}
+#leftnav .tier1 .lnavselected .tier2 .lnavselected div  {
+   background-image: url(http://www.gsu.edu/enrollment/images/enrollment/bullet_dark_grey.gif);
+}
+#leftnav .tier1 .lnavselected .tier2 .lnavselected .tier3 .lnavselected div {
+   background-image: url(http://www.gsu.edu/enrollment/images/enrollment/bullet_dark_grey.gif);
+}
+
+/* Info For Navigation */
+#infotitle {
+    background-image: url(http://www.gsu.edu/enrollment/images/enrollment/infonavbg-tier0.gif);
+    color: #FFF;
+}
+
+#infobar .tier1 {
+    background-image: url(http://www.gsu.edu/enrollment/images/enrollment/infonavbg-tier1.gif);
+}
+#infobar .tier1 .tier2 {
+    background-image: url(http://www.gsu.edu/enrollment/images/enrollment/infonavbg-tier2.gif);
+}
+#infobar .tier1 .tier2 .tier3 {
+    background-image: url(http://www.gsu.edu/enrollment/images/enrollment/infonavbg-tier3.gif);
+}
+#infobar .tier1 .lnavselected div  {
+   background-image: url(http://www.gsu.edu/enrollment/images/bullet_leftnav_tier1_rollover.gif);
+}
+#infobar .tier1 .lnavselected .tier2 .lnavselected div  {
+   background-image: url(http://www.gsu.edu/enrollment/images/enrollment/bullet_dark_grey.gif);
+}
+#infobar .tier1 .lnavselected .tier2 .lnavselected .tier3 .lnavselected div {
+   background-image: url(http://www.gsu.edu/enrollment/images/enrollment/bullet_dark_grey.gif);
+}
+/* Popular Links */
+.popular {
+    border-bottom-color: #CCC;
+}
+.popular .ptitle {
+    background-image: url(http://www.gsu.edu/enrollment/images/enrollment/popularnavbg-tier0.gif);
+    color: #FFF;
+}
+.popular ul.tier1 {
+    background-image: url(http://www.gsu.edu/enrollment/images/enrollment/popularnavbg.jpg);
+}
+.popular ul.tier1 li {
+   background-image: url(http://www.gsu.edu/enrollment/images/enrollment/bullet_dark_grey.gif);
+}
+
+/* Page Content Section */
+h2 {
+    color: #4FA2C1;
+    border-color: #CCC;
+}
+ul.link, li.link {
+    list-style-image: url(http://www.gsu.edu/enrollment/images/bullet_blue_16px.gif);
+}
+
+/* Module Section */
+/* Basic Modules */
+#page .module {
+    background-color: #FFF;
+}
+#page .module, #page .module .modcontent {
+    border-top-color: #CCC;
+}
+#page .module.photopromo {
+/*    border-top-color: #CCC;*/
+}
+/*
+#page .module h3 a {
+    background-image: url(http://www.gsu.edu/enrollment/images/more_link.gif);
+}
+#page .module h3 a:hover {
+    background-image: url(http://www.gsu.edu/enrollment/images/more_link.gif);
+}
+*/
+#page .module.topdown {
+    background-image: url(http://www.gsu.edu/enrollment/images/enrollment/gradient_topdown_long.jpg);
+}
+#page .module.bottomup {
+    background-image: url(http://www.gsu.edu/enrollment/images/enrollment/gradient_bottomup_long.jpg);
+}
+#page .module h3 {
+    color: #666;
+    border-bottom-color: #CCC;
+}
+/* Calendar */
+.calendar_highlight {
+    color: #666;
+}
+/* Feature Block */
+.featured .content {
+    background-color: #B5E5A4;
+}
+.featured .footer {
+    background-image: url(http://www.gsu.edu/enrollment/images/enrollment/feature1_block_bottom.png);
+}
+.featured .headline {
+    background-image: url(http://www.gsu.edu/enrollment/images/enrollment/feature1_block_top.png);
+}
+.featured .headline h3 {
+    color: #FFF;
+}
+/* Quicklinks/Jumpmenus - None Needed */
+/* Link Lists */
+#sitenews .link_list ul li, #calendar .link_list ul li, #rightrail .link_list ul li {
+    background-image: url(http://www.gsu.edu/enrollment/images/bullet_gray.gif);
+}
+#sitenews .link_list ul li.downloads, #calendar .link_list ul li.downloads, #rightrail .link_list ul li.downloads {
+    background-image: url(http://www.gsu.edu/enrollment/images/bullet_doc.gif);
+}
+/* Rounded Corners */
+.roundimage .topright {
+    background-image: url(http://www.gsu.edu/enrollment/images/corner-topright.png);
+}
+.roundimage .bottomright {
+    background-image: url(http://www.gsu.edu/enrollment/images/corner-bottomright.png);
+}
+.roundimage .bottomleft {
+    background-image: url(http://www.gsu.edu/enrollment/images/corner-bottomleft.png);
+}
+.roundimage .topleft {
+    background-image: url(http://www.gsu.edu/enrollment/images/corner-topleft.png);
+}
+
+
+/*-- PromoBox Color Set 1 --*/ 
+.promobox.color1 .promoheader {
+    background-image: url(http://www.gsu.edu/enrollment/images/enrollment/promobox2_gray_topleft.gif);
+    color: #FFF;
+}
+.promobox.color1 .promoheader h3{
+    background-image: url(http://www.gsu.edu/enrollment/images/enrollment/promobox2_gray_topright.gif);
+}
+.promobox.color1 .promoheader span.bg {
+    background-color: #4FA2C1;
+}
+.promobox.color1 .promofooter {
+    background-image: url(http://www.gsu.edu/enrollment/images/enrollment/promobox1_gray_bottomleft.gif);
+}
+.promobox.color1 .promofooter span.bg {
+    background-image: url(http://www.gsu.edu/enrollment/images/enrollment/promobox1_gray_bottomright.gif);
+}
+.promobox.color1 .promofooter span.bg span {
+    background-color: #BAE3F1;
+}
+.promobox.color1 .content {
+    background-color: #BAE3F1;
+    color: #666;
+}
+
+/*-- PromoBox Color Set 2 --*/ 
+.promobox.color2 .promoheader {
+    background-image: url();
+    color: #FFF;
+}
+.promobox.color2 .promoheader h3{
+    background-image: url();
+}
+.promobox.color2 .promoheader span.bg {
+    background-color: ;
+}
+.promobox.color2 .promofooter {
+    background-image: url();
+}
+.promobox.color2 .promofooter span.bg {
+    background-image: url();
+}
+.promobox.color2 .promofooter span.bg span {
+    background-color: ;
+}
+.promobox.color2 .content {
+    background-color: ;
+    color: #666;
+}
+
+/*-- Hide/Reveal original --*/
+
+.hide-reveal p { 
+    background-image: url(http://www.gsu.edu/enrollment/images/faq-close.gif);
+}
+.hide-reveal p.open { 
+    background-image: url(http://www.gsu.edu/enrollment/images/faq-open.gif);
+}
+/*-- Hide/Reveal Revised --*/
+.hide-reveal_entry .title {
+    background-image: url(http://www.gsu.edu/enrollment/images/hide_reveal_plus.gif);
+}
+.hide-reveal_entry .title.open {
+    background-image: url(http://www.gsu.edu/enrollment/images/hide_reveal_minus.gif);
+}
+
+/*-- Formating Tricks --*/
+/*-- Launch Page Content Grid --*/
+#page table.promogrid th, .promogrid th a  {
+    color: #C00;
+    background: none;
+}
+#page table.promogrid td {
+    border-right-color: #efefef;
+}
+/*-- Zebra Striping --*/
+tr.striped { background-color: #eee;}/* Basic Module Framework */
+#page .module {
+    magin: 0px auto 20px auto;
+    padding:0px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: block;
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+#page .module.noborder {
+    border:none;
+/* Comment */
+}
+
+#page .module.photo {
+    padding:0px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: block;
+}
+#page .module.photopromo {
+    border:none;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#page h3.moduleheader {
+    margin:0px;
+    padding: 5px;
+    line-height: 16px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#page h3.moduleheader a {
+    display: block;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: right 50%;
+}
+#page h3.moduleheader a:hover {
+    background-repeat: no-repeat;
+    background-position: right 50%;
+}
+#page .module.topdown {
+    background-repeat: repeat-x;
+    background-position: top;
+}
+#page .module.bottomup {
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+#page .module .modcontent {
+    border-top-width: 1px;
+    border-top-style: solid;
+    padding:10px 5px;
+}
+
+#page #sitenews {
+    clear: both;
+}
+#page .module.photopromo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px auto;
+}
+
+/* Calendar */
+#page .calendar_highlight h4 {
+    margin: 0px;
+    font-size: 12px;
+} 
+
+/* Feature Blocks */
+.featured {
+    width: 460px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-bottom: 10px;
+}
+.featured .content {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 155px;
+    padding: 10px;
+}
+.featured .content p {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.featured .content p, .featured .content ul, .featured .content ol  {
+    padding-bottom: 0px;
+    margin: 0px;
+}
+.featured .footer {
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    margin: 0px;
+    padding: 0px;
+    height: 17px;
+}
+.featured .headline {
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 30px;
+    padding-right: 10px;
+    padding-left: 165px;
+}
+.featured .headline h3 {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 12px;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+}
+
+/* Quick Links & Jump Menus */
+#rightrail select.jump {
+    width: 220px;
+}
+#rightrail .module.jumpmenus {
+    padding-top: 0px;
+}
+#rightrail .module.jumpmenus form {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Link Lists */
+.link_list h3 {
+    line-height: 16px;
+}
+#sitenews .link_list ul li, #calendar .link_list ul li, #rightrail .link_list ul li {
+    list-style-type: none;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    background-position: 5px 5px;
+    margin-bottom: 5px;
+}
+#sitenews .link_list ul li.downloads, #calendar .link_list ul li.downloads, #rightrail .link_list ul li.downloads {
+    list-style-type: none;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    background-position: 0px 2px;
+    margin-bottom: 5px;
+}
+
+#sitenews .link_list.module ul, #calendar .link_list.module ul, #rightrail .link_list.module ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Rounded Corners */
+.roundimage .topright {
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.roundimage {
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+/*.grid_13full .roundimage {
+    margin-left: 10px;
+}*/
+.roundimage .bottomright {
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.roundimage .bottomleft {
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.roundimage .topleft {
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+#page .promobox {
+    padding:0px;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    width:100%;
+    display:block;
+}
+#page .promobox .promoheader {
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin:0px;
+    display:block;
+    width: 100%;
+    min-height: 20px;
+}
+#page .promobox .promoheader h3 {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    min-height: 20px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-position: right top;
+    display:block;
+}
+#page .promobox .promoheader span.bg {
+    margin-right: 20px;
+    margin-left: 20px;
+    min-height: 20px;
+    padding: 5px 0px;
+    vetial-align: middle;
+    display:block;
+}
+#page .promobox .promofooter {
+    background-repeat: no-repeat;
+    background-position: left bottom;    
+    margin:0px;
+    display:block;
+}
+#page .promobox .promofooter span.bg {
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    display:block;
+}
+.promobox .promofooter span.bg span {
+    margin-right: 20px;
+    margin-left: 20px;
+    display:block;
+}
+#page .promobox .content {
+    display:block;
+    margin: 0px;
+    padding: 5px 20px;
+}
+
+/* News Story Promos */
+#page .storyteaser {
+    margin: 0px 0px 20px 0px;
+    clear: both; 
+}
+#page .storyteaser h4 {
+    margin:0px;    
+    font-size: 13px;
+}
+#page .storyteaser img {
+    float: left;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+#page .storyteaser h4 a {
+    text-decoration: none;
+}
+
+/* Landing Page Styling */
+.landing {
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+.landing .subpage {
+    width: 45%;
+    margin: 0;
+    padding: 10px;
+    float: left;
+    height: 100px;
+}
+/*-- Hide and Reveal OLD --*/
+.hide-reveal p:hover {
+    cursor: pointer;
+}
+.hide-reveal p { 
+    background-repeat: no-repeat;
+    padding-top: 3px;
+    padding-right: 0px;
+    padding-bottom: 3px;
+    padding-left: 12px;
+    background-position: 2px 8px; 
+}
+.hide-reveal p.open { 
+    background-repeat: no-repeat;
+    padding-top: 3px;
+    padding-right: 0px;
+    padding-bottom: 3px;
+    padding-left: 12px;
+    background-position: 2px 8px;
+} 
+/*-- Hide and Reveal REVISED --*/
+.hide-reveal_entry .title {
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-position: left 3px;
+}
+
+/*-- Department Title --*/
+.departmenttitle {
+    font-family: "Gill Sans MT", "Gill Sans","Calibri", , Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    padding: 10px;
+}
+
+/*-- Profile Module --*/
+#page div.blogbio {
+    margin: 0px;
+    margin-right: 10px;
+    width: 220px;
+    height:240px;
+    float: left;
+    padding: 7px;
+}
+#page div.blogbio img.photo {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+/*-- Formating Tricks --*/
+/*-- Launch Page Content Grid --*/
+
+.promogrid th {
+    background: none;
+}
+.promogrid th a {
+    text-decoration: none;
+}
+.promogrid td {
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+/*------ FAQ -----------------*/
+#DL dt a {font-size: 12px; padding-left:2px;color:#666;text-decoration:none;}
+#DL dt a:visited {color:#666;}
+#DL dt a:visited:hover,
+#DL dt a:hover,
+#DL dt a:active,
+#DL dt a:focus {font-weight:bold;}
+#DL #showDD {position:relative;top:0;}
+/* #DL dd,#hideDD{top:-9999px;position:absolute;} IE Bug Fix */
+#ToggleON,#ToggleOFF {display:inline;cursor:pointer;cursor:hand;}
+#content li {margin:10px 0 0 20px;}
+#DL dt a {border:none;}
+#ToggleON,#ToggleOFF {display:none;}
+p.highlighter {border:1px inset #555;padding:9px;}
+dl.faq {
+    margin: 0px;
+    padding: 0px;
+}
+#DL dl.faq, #DL dl.faq dt, #DL dl.faq dd {
+    margin: 0px;
+    padding: 0px;
+}
+#DL dl.faq dt {
+    background-image: url(http://www.gsu.edu/images/faq-close.gif);
+    padding-top: 3px;
+    padding-right: 0px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    background-position: 2px 7px;
+    background-repeat: no-repeat;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #CCCCCC;
+    }
+#DL #DTplus {
+    background-image: url(http://www.gsu.edu/images/faq-open.gif);
+    background-repeat: no-repeat;
+}
+#DL #DTminus {
+    background-image: url(http://www.gsu.edu/images/faq-close.gif);
+    background-repeat: no-repeat;
+}
+#DL dl.faq dd {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 15px;
+}
+#DL dl.faq dt.odd, #DL .faq dd.odd {
+    background-color: #F2F2F2;
+}
+#DL dl.faq dd.odd {
+    border-top-color: #F2F2F2;
+    background-color: #f2f2f2;
+    border-top-width: 3px;
+    padding-bottom: 5px;
+}
+#DL h3{
+    margin-top: 20px;
+}
+/*-- Focus Block/Items --*/
+.focus_item {
+    width: 220px;
+    float: left;
+    border: 1px solid #2E529E;
+    margin: 10px;
+    padding-top: 150px;
+    background-repeat: no-repeat;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    height: 150px;
+    background-color: #D9E3F4;
+}
+.focus_item a {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: #4B81CB;
+    font-weight: bold;
+    color: #FFF;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-left: 155px;
+}
+.focus_item .content {
+    height: 80px;
+}
+.focus_item a:hover {
+    background-color: #325BAD;
+    text-decoration: none;
+}
+.focus_item .moduleheader {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #2E529E;
+}#leftnav .tier1 a, #leftnav .tier2 a, #leftnav .tier3 a {
+    color:#666;
+}
+.navdropdown ul li a 
+{
+    color:#666;
+}
+.navdropdown ul li 
+{
+    background-image: url("http://www.gsu.edu/enrollment/images/enrollment/bullet_dark_grey.gif");
+}
+
+/* here because of a sharing error in Main Modules 
+#page div.blogbio {
+    margin: 0px;
+    margin-right: 10px;
+    width: 230px;
+    height:240px;
+    float: left;
+    padding: 7px;
+}
+#page div.blogbio img.photo {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: right;
+}
+ */
