@@ -226,6 +226,28 @@
 		<cfset query="select * from custom_information where infoowner_userid=#cookie.userid#">
 	<cfelse>
 		<cfset query="select * from custom_information">
+		<cfif isDefined("URL.owner")><cfset query=query & " where infoowner_userid=#URL.owner#"></cfif>
+		<cfquery name="getOwners" datasource="scholarships">
+			select distinct INFOOWNER_USERID from custom_information WHERE INFOOWNER_USERID IS NOT NULL
+		</cfquery>
+		<cfquery name="getUsers" datasource="scholarships">
+			select * from users
+		</cfquery>
+		<div width="100%" align="right" style="margin-right:60px;">
+			<select id="custom_owner">
+				<option value="">All Owners</option>
+				<cfoutput query="getOwners">
+					<cfquery name="getOwnerName" dbtype="query">
+						select * from getUsers where user_id=#infoowner_userid#
+					</cfquery>
+					<CFIF ISDEFINED("GETOWNERNAME.FIRST_NAME") and getownername.first_name neq "">
+						<option value="#infoowner_userid#"
+						<cfif isDefined("URL.owner") and URL.owner eq infoowner_userid>selected</cfif>
+						>#getOwnerName.first_name# #getOwnerName.last_name#</option>
+					</CFIF>
+				</cfoutput>
+			</select> <input type="button" value="GO" onclick="document.location='index.cfm?option=3&owner='+document.getElementById('custom_owner')[document.getElementById('custom_owner').selectedIndex].value;">
+		</div>
 	</cfif>
 	<cfset query=query & " order by custom_info">
 	<cfquery name="getInfo" datasource="scholarships">
